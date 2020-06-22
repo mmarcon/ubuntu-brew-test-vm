@@ -11,4 +11,5 @@ sudo apt-get install -y git build-essential
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/vagrant/.profile
 
 # MongoDB tap
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 brew tap mongodb/brew
